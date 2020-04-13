@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Map is under construction"
+        android:fontFamily="@font/circularstdbold"
+        android:textSize="20sp"
+        android:textColor="#ffff"
+        android:layout_centerInParent="true"
+        android:id="@+id/under_cons"/>
+
+    <Button
+        android:id="@+id/log_out"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="logout"
+        android:text="Log Out"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_rounded"
+        android:fontFamily="@font/circularstdmedium"
+        android:layout_centerInParent="true"
+        android:textAllCaps="false"
+        android:layout_below="@id/under_cons"
+        android:textColor="#ffff"
+        android:textSize="20sp"/>
+
+</RelativeLayout>
